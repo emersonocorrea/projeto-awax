@@ -1,0 +1,66 @@
+export const textlist = [
+    {
+        id: 1,
+        tittle: 'Home'
+    },
+    {
+        id: 2,
+        tittle: 'about us'
+    },
+    {
+        id: 3,
+        tittle: 'serviçes'
+    },
+    {
+        id: 4,
+        tittle: 'our projects'
+    },
+    {
+        id: 5,
+        tittle: 'our team'
+    },
+    {
+        id: 6,
+        tittle: 'happy clients'
+    },
+    {
+        id: 7,
+        tittle: 'price'
+    },
+    {
+        id: 8,
+        tittle: 'some facts'
+    },
+    {
+        id: 9,
+        tittle: 'contact us'
+    },
+]
+
+export const services = [
+    {
+        id: 1,
+        img: '../src/assets/images/medalha.png',
+        tittle: 'hight quality design',
+        desc: 'optio aliquid consequatur'
+    },
+    {
+        id: 2,
+        img: '../src/assets/images/estrela.png',
+        tittle: 'MODERN DESIGN',
+        desc: 'optio aliquid consequatur'
+    },
+    {
+        id: 3,
+        img: '../src/assets/images/relogio.png',
+        tittle: 'REGULAR UPDATES',
+        desc: 'optio aliquid consequatur'
+    },
+    {
+        id: 4,
+        img: '../src/assets/images/balao.png',
+        tittle: 'FAST AND FREE SUPORT',
+        desc: 'optio aliquid consequatur'
+    },
+]
+
