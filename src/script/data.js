@@ -68,42 +68,51 @@ export const projects = [
     {
         id: 1,
         img: '../src/assets/images/foto1.jpg',
+        info: 'about'
         
         
     },
     {
         id: 2,
         img: '../src/assets/images/foto2.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },
     {
         id: 3,
         img: '../src/assets/images/foto3.jpg',
+        info: 'about',
+        desc: 'lorem lorem lorem'
         
     },
     {
         id: 4,
         img: '../src/assets/images/foto4.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },
     {
         id: 5,
         img: '../src/assets/images/foto5.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },
     {
         id: 6,
         img: '../src/assets/images/foto6.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },
     {
         id: 7,
         img: '../src/assets/images/foto7.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },
     {
         id: 8,
         img: '../src/assets/images/foto9.jpg',
-        
+        info: 'about',
+        desc: 'lorem lorem lorem'
     },    
 ]

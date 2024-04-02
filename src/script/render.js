@@ -65,9 +65,16 @@ export const renderProjects = (arr) => {
         const photoInfo = document.createElement('div')
         photoInfo.classList = 'section-projects--photoinfo'
 
+        const photoTitle = document.createElement('h5')
+        photoTitle.innerText = item.info
+
+        const photoDesc = document.createElement('p')
+        photoDesc.innerText = item.desc
+
         const img = document.createElement('img')
         img.src = item.img
 
+        photoInfo.append(photoTitle, photoDesc)
         photoArea.append(photoInfo, img)
         projectPhoto.append(photoArea)
         sectionProjects.appendChild(projectPhoto)
