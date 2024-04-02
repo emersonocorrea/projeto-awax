@@ -64,3 +64,46 @@ export const services = [
     },
 ]
 
+export const projects = [
+    {
+        id: 1,
+        img: '../src/assets/images/foto1.jpg',
+        
+        
+    },
+    {
+        id: 2,
+        img: '../src/assets/images/foto2.jpg',
+        
+    },
+    {
+        id: 3,
+        img: '../src/assets/images/foto3.jpg',
+        
+    },
+    {
+        id: 4,
+        img: '../src/assets/images/foto4.jpg',
+        
+    },
+    {
+        id: 5,
+        img: '../src/assets/images/foto5.jpg',
+        
+    },
+    {
+        id: 6,
+        img: '../src/assets/images/foto6.jpg',
+        
+    },
+    {
+        id: 7,
+        img: '../src/assets/images/foto7.jpg',
+        
+    },
+    {
+        id: 8,
+        img: '../src/assets/images/foto9.jpg',
+        
+    },    
+]

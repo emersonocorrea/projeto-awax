@@ -1,6 +1,7 @@
-import { textlist, services } from "./data.js";
-import { renderList, renderServices } from "./render.js";
+import { textlist, services, projects } from "./data.js";
+import { renderList, renderProjects, renderServices } from "./render.js";
 
 renderList(textlist)
 renderServices(services)
+renderProjects(projects)
 

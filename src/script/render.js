@@ -52,4 +52,27 @@ export const renderServices = (arr) => {
     
 }
 
+export const renderProjects = (arr) => {
+    const sectionProjects = document.querySelector('.section-projects--photos')
+
+    arr.forEach(item => {
+        const projectPhoto = document.createElement('div')
+        projectPhoto.classList = 'section-projects--photo'
+
+        const photoArea = document.createElement('div')
+        photoArea.classList = 'section-projects--photoarea'
+
+        const photoInfo = document.createElement('div')
+        photoInfo.classList = 'section-projects--photoinfo'
+
+        const img = document.createElement('img')
+        img.src = item.img
+
+        photoArea.append(photoInfo, img)
+        projectPhoto.append(photoArea)
+        sectionProjects.appendChild(projectPhoto)
+
+    })
+}
+
 
